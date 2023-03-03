@@ -255,4 +255,19 @@ You must have install
          * )
          */
      ```
+     
+     ###### controller documentation 
+       ```
+             /**
+                 * @OA\Info(
+                 *     title="Super-Hero API Documentation",
+                 *     version="0.1",
+                 * ),
+                 * @OA\PathItem(path="/api"),
+                 * @OA\Server(
+                 *      description="SuperHero env",
+                 *      url="http://localhost:8000/api/v1/"
+                 *  )
+            */
+      ```
     
